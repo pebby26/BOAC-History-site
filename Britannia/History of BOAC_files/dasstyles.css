@@ -1,0 +1,1571 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0; 	padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+em {
+	font-style: italic; font-weight: bold
+}
+figure {
+  display: table; border: 1px solid #000000; padding: 2px; margin: 4px
+}
+
+figcaption {
+  display: table-caption; caption-side: bottom; font-weight: 700; padding: 0 2px 4px 2px; margin: 4px; text-align: center
+}
+ol {
+    list-style-type: decimal; list-style-position: inside; text-align: left; margin-left: 20px
+}
+ul {
+	list-style-type: disc; list-style-position: inside; text-align: left; margin-left: 20px
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END RESET */
+
+b {
+    font-weight: 700
+}
+h1, h2 {
+    line-height: 1; font-size: 200%; text-transform: uppercase;
+}
+html {
+    margin: 0; padding: 0
+}
+h3 {
+    font-size: 130%; text-transform: uppercase
+}
+i {
+    font-style: italic
+}
+strong {
+    font-weight: 700
+}
+.backButton {
+    margin: 10px 0 10px 0; padding: 3px 15px 3px 20px; font-weight: 700; -webkit-border-top-right-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+}
+.backButton-unpad {
+    margin: 10px 0 10px -20px; padding: 3px 15px 3px 20px; font-weight: 700; -webkit-border-top-right-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+}
+backButton-unpad a:link, backButton-unpad a:visited, backButton a:link, backButton a:visited {
+    text-decoration: none
+}
+.basket-banner {
+    background-color: #404040; color: #fff; line-height: 1; padding:5px; text-align: right; font-weight: 700; border: solid 1px #fff
+}
+.basket-banner a:link, .basket-banner a:visited  {
+    color: #fff !important
+}
+.basket-banner table {
+    margin: 0 0 0 auto; width: auto
+}
+.basket-banner td {
+    padding: 0 5px
+}
+.basket-heading {
+    font-size: 120%; font-weight: 700; text-transform: uppercase
+}
+.bottom-block-airliners a:link, .bottom-block-airliners a:visited, .bottom-block-airliners a:hover, .bottom-block-airliners a:active{
+    color: #ffffff; text-decoration: none
+}
+.bottom-block-das a:link, .bottom-block-das a:visited, .bottom-block-das a:hover, .bottom-block-das a:active{
+    color: #ffffff; text-decoration: none
+}
+.bottom-block-tanks a:link, .bottom-block-tanks a:visited, .bottom-block-tanks a:hover, .bottom-block-tanks a:active{
+    color: #ffffff; text-decoration: none
+}
+.br-para p {
+    margin:0
+}
+.calendar-day {
+  background: #ffffff; background: -moz-linear-gradient(top, #ffffff 1%, #e0e0e0 100%); background: -webkit-linear-gradient(top, #ffffff 1%,#e0e0e0 100%); background: linear-gradient(to bottom, #ffffff 1%,#e0e0e0 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); border: solid 1px #e42026; margin: 0; font-weight: 700; line-height: 16px;
+}
+.calendar-day h2 {
+    font-family: serif; font-size: 30px !important; margin: 0; padding: 0; line-height: 12px; height: 22px; color: #000000 !important
+}
+.calendar-day p {
+    margin: 5px 0 !important
+}
+.calendar-holder {
+    float: left; margin: 5px 10px 5px 0; text-align: center; width: 90px
+}
+.calendar-holder-main {
+    margin: 20px auto; text-align: center; width: 90px; font-size: 100%
+}
+.calendar-holder-main-detail {
+    margin: 20px auto; text-align: center; width: 90px; font-size: 100%
+}
+.calendar-month {
+    border-radius: 10px 10px 0px 0px; -moz-border-radius: 10px 10px 0px 0px; -webkit-border-radius: 10px 10px 0px 0px; height:22px
+}
+.calendar-year {
+    border-radius: 0px 0px 10px 10px; -moz-border-radius: 0px 0px 10px 10px; -webkit-border-radius: 0px 0px 10px 10px; height: 21px
+}
+.callout {
+    width: 40%; float: left; margin: 0 10px 10px 0; padding: 10px
+}
+.callout h2 {
+    font-size: 150%; margin: 0 0 10px 0; font-weight: 700
+}
+.callout img {
+    width: 100%; height: auto; margin: 0
+}
+.centre-text {
+    text-align: center
+}
+.concorde-app {
+	width:calc(100% - 40px); border-bottom: solid 1px #e42026; padding: 5px 0; margin: 0 20px
+}
+.concorde-app-screen {
+	width:30%; max-width: 300px; float: left; margin-right: 5px; border: none
+}
+.concorde-app-buttons {
+	height: 50px; border: none
+}
+.contact-table {
+    margin: 10px
+}
+.contact-table td {
+    margin: 0 5px 5px 0; padding: 0 5px 5px 0; vertical-align: middle
+}
+.data-table {
+    width: 100%; vertical-align: top
+}
+.data-table td {
+    text-align: left; border: solid 1px #000; padding: 5px
+}
+.data-table th {
+    text-align: right; border: solid 1px #000; font-weight: 700; padding: 5px
+}
+.diary-date-thumb {
+    height: 90px; width:160px; border: 1px solid #000000; background-size: cover; float: left; margin: 6px 10px
+}
+.diary-date-thumb img {
+    height:90px; width: 160px
+}
+.errorMessage {
+    color: #ff0000; font-weight: 700
+}
+.event-main-title h1 {
+    font-size: 200%; text-transform: uppercase; margin: 20px 10px
+}
+.event-main-title p {
+    text-align: center; margin: 5px 20px
+}
+.event-main-title a:link, .event-main-title a:visited, .event-main-title a:hover,  .event-main-title a:active {
+    font-weight: 700
+}
+.event-preview {
+    margin:0 20px; border-top: solid 1px #e42026; overflow: hidden
+}
+.event-preview-das {
+    margin:0 20px; border-top: solid 1px #00617b; overflow: hidden
+}
+.event-preview-tanks {
+    margin:0 20px; border-top: solid 1px #3b6d52; overflow: hidden
+}
+.event-preview h2 {
+    font-size: 130%; text-transform: uppercase; color: #e42026; margin: 5px 0; font-weight:700
+}
+.event-preview-das h2 {
+    font-size: 130%; text-transform: uppercase; color: #00617b; margin: 5px 0; font-weight:700
+}
+.event-preview-tanks h2 {
+    font-size: 130%; text-transform: uppercase; color: #3b6d52; margin: 5px 0; font-weight:700
+}
+.event-preview a:link, .event-preview a:visited, .event-preview a:hover, .event-preview a:active {
+    font-weight: 700; color: #e42026
+}
+.event-preview-das a:link, .event-preview-das a:visited, .event-preview-das a:hover, .event-preview-das a:active {
+    font-weight: 700; color: #00617b
+}
+.exhibit-main-image {
+    height: 56vw; float: left
+}
+.exhibit-main-image h1 {
+    text-transform: uppercase; font-size: 200%; font-weight: 700; margin: 30px 100px 0 20px
+}
+.exhibit-preview-airliners h2, .exhibit-preview-tanks h2 {
+    font-size: 120%
+}
+.feature-half {
+    width: calc(50% - 35px); float: left; margin: 0 -10px 0 20px; padding: 5px; height: 240px
+}
+.feature-half h2 {
+    text-transform: uppercase; font-size: 140%
+}
+.feature-half img {
+    width:100%; height: auto; max-width: 501px; margin: 0 0 5px 0
+}
+.full-width-block {
+	text-align: left
+}
+.full-width-block h1 {
+	text-align: center
+}
+.full-width-image, .half-widthImage {
+	width: calc(100% - 2px); border: none; margin: 0
+}
+.full-width-table {
+	width: calc(100% - 8px)
+}
+.image-caption {
+    font-size: 80%; font-weight: 700; margin: 0
+}
+.image-panel-50-full-border-1 {
+   border: 1px solid #000000;; float: left; width: calc(50% - 15px); height: auto; margin: 5px 5px 5px 0; padding: 5px
+}
+.image-panel-50-full-border-2 {
+   border: 1px solid #000000;; float: left; width: calc(50% - 15px); height: auto; margin: 5px 0 5px 0; padding: 5px
+}
+.image-panel-50-full-border-1 img, .image-panel-50-full-border-2 img {
+    width:100%; 
+}
+.left-spacer-20 {
+    float: left; width: 20px
+}
+.left-text {
+    text-align: left
+}
+.padded-content {
+   clear: both; margin: 20px; text-align: left
+}
+.padded-content h2 {
+    font-size: 200%; text-transform: uppercase; margin: 0 0 20px 0
+}
+.padded-content h3 {
+    font-size: 130%; text-transform: uppercase; margin: 10px 0
+}
+.padded-content img {
+	max-width: 100%; height: auto;
+}
+.panel-50-banner-holder {
+    width: calc(100% + 10px); height: auto; margin: 0 -5px; background-position: center; background-size: cover
+}
+.panel-50 {
+   border: 1px solid #00617b; border-top: none; float: left; overflow: hidden
+}
+.panel-50 h2 {
+    font-size: 200%; text-transform: uppercase; color: #00617b; margin: 5px 0
+}
+.panel-50 img, panel-50-airliners img, panel-50-tanks img {
+    width: 100%
+}
+.panel-50-header {
+   font-weight: 700; text-transform: uppercase; margin: -5px -5px 0 -5px; line-height: 1; padding: 5px 10px
+}
+.panel-50-header a:link, .panel-50-header a:visited {
+    color: #fff
+}
+.panel-50-footer {
+   font-weight: 700; text-transform: uppercase; margin: -5px -5px 0 -5px; line-height: 1; padding: 5px 10px
+}
+.panel-50-text {
+    height: 160px
+}
+.right-text {
+    text-align: right
+}
+.see-more-events {
+    float: right; border-radius: 0px 0px 20px 20px; -moz-border-radius: 0px 0px 20px 20px; -webkit-border-radius: 0px 0px 20px 20px; padding: 0 20px;
+}
+.see-more-events h2 {
+    color: #fff; text-transform: none; font-size: 100%; font-weight: 700
+}
+.shop-basket-thumb {
+    width: calc(10% - 4px); float: left; margin: 2px 10px 2px 0; min-width: 50px; height: auto
+}
+.shop-basket-thumb img {
+    width: 100%; border: 0;
+}
+.shop-header h1 {
+	font-weight: 700
+}
+.shop-header h2 {
+	font-size: 150%
+}
+.shop-info {
+    width: 30%; float: left; margin: 0 10px 0 0;
+}
+.shop-info img {
+    border:none; margin:10px 0
+}
+.shop-info-holder {
+    float:left; width: 65%
+}
+.shop-thumb {
+    width: calc(25% - 4px); float: left; margin: 2px 10px 2px 0
+}
+.shop-thumb img {
+    width: 100%; border: 0;
+}
+
+.shop-item-image img {
+    max-width:100%; height: auto; border: none; margin-top: 5px
+}
+.shop-item-thumb {
+    height: 160px; width:160px; border: 1px solid #000000; background-size: contain; background-repeat: no-repeat; background-position: center; float: left; margin: 6px 10px
+}
+.shop-item-thumb img {
+    height:160px; width: 160px
+}
+.social {
+	text-align: right; float: right; padding: 5px 20px
+}
+.social img {
+	max-height: 100px; width: auto; min-height: 20px; float: left; border: none; height: 3em; margin: 0 2px
+}
+.supersize120 {
+    font-size: 120%; margin: 30px 10px 20px
+}
+.supersize200 {
+    font-size: 200%; margin: 20px 10px
+}
+.story-preview {
+   border: 1px solid #00617b; float: left; overflow: hidden
+}
+.story-preview-thumb {
+	width: 30%; height: 20%; float: left; margin: 0 5px 5px 0; background-size: cover; background-position: center
+}
+.story-preview-thumb img {
+	width: 100%; height: 100%; border: none
+}
+.text-150 {
+	font-size: 150% !important
+}
+.text-airliners-2 {
+    color: #353785
+}
+.text-airliners-1 {
+    color: #e42026
+}
+.text-bold {
+	font-weight: bold
+}
+.text-das-1 {
+    color: #006680
+}
+.text-das-2 {
+    color: #000000
+}
+.text-outline-blue {
+    text-shadow: rgb(53, 56, 133) 1px 0px 0px, rgb(53, 56, 133) 0.540302px 0.841471px 0px, rgb(53, 56, 133) -0.416147px 0.909297px 0px, rgb(53, 56, 133) -0.989992px 0.14112px 0px, rgb(53, 56, 133) -0.653644px -0.756802px 0px, rgb(53, 56, 133) 0.283662px -0.958924px 0px, rgb(53, 56, 133) 0.96017px -0.279415px 0px;
+}
+.text-outline-green {
+    text-shadow: rgb(59, 109, 82) 1px 0px 0px, rgb(59, 109, 82) 0.540302px 0.841471px 0px, rgb(59, 109, 82) -0.416147px 0.909297px 0px, rgb(59, 109, 82) -0.989992px 0.14112px 0px, rgb(59, 109, 82) -0.653644px -0.756802px 0px, rgb(59, 109, 82) 0.283662px -0.958924px 0px, rgb(59, 109, 82) 0.96017px -0.279415px 0px;
+}
+.text-outline-white {
+    text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+}
+.text-tanks-1 {
+    color: #9b9760
+}
+.text-tanks-2 {
+    color: #3b6d52
+}
+@media only screen and (max-width:520px) {
+    .callout {
+        width:calc(100% - 30px); margin: -10px 5px 0 5px
+    }
+    .exhibit-main-image h1 {
+        font-size: 150%; font-weight: 700; margin: 15px 50px 0 10px
+    }
+    .exhibit-preview-airliners, .exhibit-preview-tanks, .exhibit-preview-das {
+        width: calc(50% - 18px); height: 58vw; margin: 5px 5px 0 0; padding: 5px;
+    }
+    .feature-half {
+        width: calc(100% - 20px); margin: 0 5px 5px 5px; padding: 5px; height: auto
+    }
+    .left-spacer-2 {
+        width: 5px; height: 20px;
+    }
+    .left-spacer-3 {
+        width: 0; height: 0;
+    }
+    .left-spacer-4, .left-spacer-20  {
+        width: 0; height: 0;
+    }
+    .panel-50, .story-preview {
+        width:100%; height: auto; margin: 3px 0; padding: 5px 5px 0 5px;
+    }
+    .panel-50-header {
+       margin: -5px -5px 0 -5px;
+    }
+    .panel-50-text {
+        height: auto
+    }
+
+}
+@media only screen and (min-width:521px) and (max-width:799px) {
+    .exhibit-preview-airliners, .exhibit-preview-tanks, .exhibit-preview-das {
+        width: calc(33% - 20px); height: 37.5vw; margin: 10px 10px 0 0; padding: 5px;
+    }
+    .image-panel-50-full-border-1, .image-panel-50-full-border-2 {
+   border: none; width: calc(100% - 10px); margin: 5px 5px 5px 0; padding: 5px
+}
+    .left-spacer-2 {
+        width: 0; height: 0;
+    }
+    .left-spacer-3 {
+        width: 5px; height: 20px;
+    }
+    .left-spacer-4, .left-spacer-20 {
+        width: 0; height: 0;
+    }
+    .panel-50, .story-preview {
+        margin: 5px 0; padding: 5px 5px 0 5px;
+    }
+    .panel-50-text {
+        height: auto; padding-bottom: 10px
+    }
+}
+
+@media only screen and (max-width:799px) {
+    .banner {
+        width:100%; position:static
+    }
+    .banner-caption {
+        position: absolute; bottom: 1vw; border-radius: 0px 20px 20px 0px; -moz-border-radius: 0px 20px 20px 0px; -webkit-border-radius: 0px 20px 20px 0px; border: 2px solid #fff; width: 40%; margin: 0 0 0 -2px; padding: 2vw 5vw; font-size: calc(2vw + 5px); line-height: calc(2vw + 5px)
+    }
+    .banner-pic {
+        width:100%; height: 34vw;
+    }
+    .banner-pic h1 {
+        font-size: calc(3vw + 7px); margin: 10px 0 0 20px; line-height: calc(3vw + 7px)
+    }
+    .blog-preview-image {
+        width: 30vw; height: 106px; min-width: 160px; 
+    }
+    .blog-preview-image img {
+        width:100%; height: 100%
+    }
+    .blog-preview-more {
+        width:calc(100% - 20px); 
+    }
+    .blog-preview-text-holder {
+        width: calc(100% - 20px); max-height: 116px
+    }
+    .blog-preview-title {
+        width:calc(100% - 20px);
+    }
+    .blog-preview-wrap {
+        width: 100%;
+    }
+    .bottom-block-airliners {
+        width: calc(100% - 18px); height: 50px; margin: 10px 5px; padding: 10px 5px; background-size: auto 60%
+    }
+    .bottom-block-das {
+        width: calc(100% - 18px); height: 50px; margin: 10px 5px; padding: 10px 5px; background-size: auto 60%
+    }
+    .bottom-block-tanks {
+        width: calc(100% - 18px); height: 50px; margin: 10px 5px; padding: 10px 5px; background-size: auto 60%
+    }
+    .bottom-nav {
+        display:none
+    }
+    .bottom-nav-mobile {
+        display: block; text-align: right;
+    }
+    .bottom-nav-mobile p {
+        margin: 0 10px; font-size: 110%; font-weight: 700
+    }
+    .bottom-nav-mobile h1 {
+        margin: 0 10px; font-size: 120%; font-weight: 700
+    }
+    .calendar-holder-main {
+        float:left; margin: 20px
+    }
+    .container {
+        width: 100%
+    }
+    .cookie-alert {
+        margin:0; width: calc(100vw - 60px); padding: 5px 30px; float:left;
+    }
+    .diary-date-thumb {
+        height: 113px; width:200px; border: 1px solid #000000; background-size: cover; float: left; margin: 6px 10px
+    }
+    .event-main-image {
+        width:100%; height: 56vw; background-size: cover; overflow: hidden
+    }
+    .event-main-title {
+        width: 100%; text-align: center; float: left
+    }
+        .event-preview {
+        margin:0 5px;
+    }
+    .hamburger-button {
+        height: 44px; display: block; margin: 0 0 0 -12px; float: left
+    }
+    .holder-25 {
+        width:100% !important
+    }
+    .holder-75 {
+        width:100%
+    }
+    img.top-airliners-button-airliners{
+        width:0px; height: 0px; display: none
+    }
+    img.top-airliners-button-das {
+        width:0px; height: 0px; display: none
+    }
+    img.top-airliners-button-tanks {
+        width:0px; height: 0px; display: none
+    }
+    img.top-das-button-airliners {
+        width:0px; height: 0px; display: none
+    }
+    img.top-das-button-das {
+        width:0px; height: 0px; display: none
+    }
+    img.top-das-button-tanks {
+        width:0px; height: 0px; display: none
+    }
+    img.top-tanks-button-airliners {
+        width:0px; height: 0px; display: none
+    }
+    img.top-tanks-button-das {
+        width:0px; height: 0px; display: none
+    }
+    img.top-tanks-button-tanks {
+        width:0px; height: 0px; display: none
+    }
+    .menu-left{
+        display: none
+    }
+    .menu-right {
+        display: none
+    }
+    .mobile-menu {
+        position: absolute; left: 48px; display: none; width: 60%; max-width: 400px; min-width: 190px; background-repeat: repeat; z-index: 120; padding: 5px 5px 5px 10px; margin: 4px 0 0 -2px; line-height: 1.5; -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5); -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5); box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5); background-image: url(/images/bg-grey-fade.png)
+    }
+    .panel-25-600 {
+        width: calc(100% - 10px); margin: 0 0 0 5px; padding: 5px 0;
+    }
+    .panel-25-header {
+       width: 120px; height: 24px; margin: 5px 0 0 5px; padding: 0 15px
+    }
+    .panel-25-header h2, .panel-75-header h2 {
+        font-size: 16px; font-weight: 700; line-height: 24px
+    }
+    .panel-75-300 {
+        width: calc(100% - 10px); margin: 0 0 0 5px; padding: 10px 0;
+    }
+    .panel-75-300 h1 {
+        margin: 0 0 2px 0; font-size: 24px
+    }
+    .panel-75-300 h2 {
+        margin: 0 0 4px 0; font-size: 16px
+    }
+    .panel-75-300 img {
+        float: left; border: 0; margin: 0 5px 5px 0; width: 30%; min-width: 180px
+    }
+    .panel-75-header {
+        width: 90%; min-width: 260px; margin: 10px 0 0 5px; padding: 5px 10px; font-size: 120%
+    }
+    .panel-100 {
+        width: calc(100% - 8px); margin:10px 0 0 5px; padding: 10px 0;
+    }
+    .panel-100 h1, .panel-100 h2{
+        text-align: center
+    }
+    .panel-100 p {
+        margin: 0 10px 10px 10px
+    }
+    .panel-shop-preview {
+        width: calc(33vw - 15px); height: calc(33vw + 15px); margin: 0 0 0 6px;
+    }
+    .panel-shop-thumbnail {
+        width: calc(33vw - 15px); height: calc(33vw - 15px); 
+    }
+    .panel-shop-thumbnail img {
+        width:100%; height: 140px;
+    }
+    .shop-item-image {
+    width: 100%; text-align: center
+    }
+	.story-preview {
+		display: none
+	}
+    .tanks-bg {
+        background-color: darkslategrey;
+    }
+    .toptabs-duxford {
+       width: 100%; height: 50px; background-image: url(/images/top-tabs-mobile-das.gif); position: relative; top: 0; left: 0
+    }
+    .toptabs-britliners {
+       width: 100%; height: 50px; background-image: url(/images/top-tabs-mobile-airliners.gif); position: relative; top: 0; left: 0 
+    }
+    .toptabs-brittanks {
+       width: 100%; height:50px; background-image: url(/images/top-tabs-mobile-tanks.gif); position: relative; top: 0; left: 0; margin: 0; padding: 0; background-color: #000
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 917px) {
+    p {
+        margin-bottom: 3px
+    }
+    .banner {
+        width:100%; position: static
+    }
+    .banner-pic {
+        width:100%; height: 237px;
+    }
+    .banner-pic h1 {
+        font-size: 30px; margin: 10px 0 0 20px; line-height: 28px
+    }
+    .banner-caption {
+         border-radius: 20px 0px 0px 20px; -moz-border-radius: 20px 0px 0px 20px; -webkit-border-radius: 20px 0px 0px 20px; border: 2px solid #fff; width: 290px; margin: 90px 0 0 380px; padding: 10px 15px; font-size: 18px; line-height: 18px
+    }
+     .blog-preview-image {
+        height: 64px; width: 100px
+    }
+    .blog-preview-image img {
+        width:100%; height: 74px
+    }
+     .blog-preview-more {
+        width:calc(100% - 20px);  margin: 0 0 10px 5px; 
+    }
+    .blog-preview-text-holder {
+        width: calc(100% - 20px); height: 72px;
+    }
+    .blog-preview-title {
+        width:calc(100% - 20px);
+    }
+    .blog-preview-wrap {
+        width: 50%; float: left;
+    }
+    .bottom-block-airliners {
+        width: calc(100% - 78px); height: 80px; margin: 10px 20px; padding: 10px 20px; background-size: auto 40%
+    }
+    .bottom-block-das {
+        width: calc(100% - 78px); height: 80px; margin: 10px 20px; padding: 10px 20px; background-size: auto 40%
+    }
+    .bottom-block-tanks {
+        width: calc(100% - 78px); height: 80px; margin: 10px 20px; padding: 10px 20px; background-size: auto 40%
+    }
+    .bottom-nav {
+        line-height: 1.2; display:block
+    }
+    .bottom-nav h1 {
+        font-size: 28px; margin: 6px 0 0 0
+    }
+    .bottom-nav-mobile {
+        display: none
+    }
+    .container {
+        width: 700px;
+    }
+    .calendar-holder-main {
+        float:left; margin: 20px
+    }
+    .cookie-alert {
+        margin: 0 auto -130px; width: 640px; height: 120px; padding: 5px 30px;  top: 33px
+    }
+     .event-main-image {
+        width:700px; height: 429px; background-size: cover; overflow: hidden
+    }
+    .event-main-title {
+        width: 700px; text-align: center; float: left
+    }
+    .exhibit-main-image {
+        height: 392px
+    }
+    .exhibit-main-image h1 {
+        font-size: 320%; font-weight: 700; margin: 30px 100px 0 20px
+    }
+    .exhibit-preview-airliners, .exhibit-preview-tanks, .exhibit-preview-das {
+        width: calc(33% - 26px); height: 250px; margin: 10px 9px 0 0; padding: 5px;
+    }
+    .hamburger-button {
+        height: 44px; display: block; margin: 0 0 0 -12px; float: left
+    }
+    .holder-25 {
+        width: 100%;
+    }
+    .holder-75 {
+        width: 100%;
+    }
+    .left-spacer-2 {
+        width: 0; height: 0;
+    }
+    .left-spacer-3 {
+        width: 20px; height: 20px;
+    }
+    .left-spacer-4 {
+        width: 0px; height: 0px;
+    }
+    .menu-left{
+        display: none
+    }
+    .menu-right {
+        display: none
+    }
+    .mobile-menu {
+        position: absolute; left: calc(12vw + 10px); top:38px; display: none; width: 60%; max-width: 400px; min-width: 190px; background-repeat: repeat; z-index: 120; padding: 5px 5px 5px 10px; margin: 0; line-height: 1.5; -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5); -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5); box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5); background-image: url(/images/bg-grey-fade.png)
+    }
+    .panel-25-600 {
+        width: 660px; margin: 0 0 0 20px; padding: 10px 0;
+    }
+    .panel-25-header {
+       width: 120px; height: 24px; margin: 10px 0 0 20px; padding: 0 15px
+    }
+    .panel-25-header h2, .panel-75-header h2 {
+        font-size: 16px; font-weight: 700; line-height: 24px
+    }
+    .panel-50 {
+        width:calc(50% - 37px); height: auto; margin: 10px 10px 10px 0; padding: 5px 5px 0 5px;
+    }
+    .panel-75-300 {
+        width: 660px; margin: 0 0 0 20px; padding: 10px 0;
+    }
+    .panel-75-300 h1 {
+        margin: 0 0 2px 0; font-size: 28px
+    }
+    .panel-75-300 h2 {
+        margin: 0 0 4px 0; font-size: 19px
+    }
+    .panel-75-300 img {
+        float: left; border: 0; margin: 0 10px 50px 0; width: 220px
+    }
+    .panel-75-header {
+        width: 380px; height: 24px; margin: 10px 0 0 20px; padding: 0 15px
+    }
+    .panel-100 {
+        width: calc(100% - 38px); margin:10px 20px; padding: 10px 0;
+    }
+    .panel-100 h1, .panel-100 h2{
+        text-align: center
+    }
+    .panel-100 p {
+        margin: 0 10px 10px 10px
+    }
+    .panel-shop-preview {
+        width: 207px; height: 164px; margin: 0 0 0 10px;
+    }
+    .panel-shop-thumbnail {
+        width: 100%; height: 140px; 
+    }
+    .panel-shop-thumbnail img {
+        width:100%; height: 140px;
+    }
+    img.top-airliners-button-airliners{
+        width:40.7%; height: 60px; display: block; float: left
+    }
+    img.top-airliners-button-das {
+        width:26.4%; height: 60px; display: block; float: left
+    }
+    img.top-airliners-button-tanks {
+        width:32%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-airliners {
+        width:30.7%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-das {
+        width:36.5%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-tanks {
+        width:31.5%; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-airliners {
+        width:26.5%; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-das {
+        width:36.5%; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-tanks {
+        width:340px; height: 60px; display: block; float: left
+    }
+    .panel-50-text {
+        height: 240px
+    }
+    .shop-detail {
+        float:left; width:430px
+    }
+    .shop-item-image {
+    float:left; width: 210px; margin: 0 20px 5px 0;
+    }
+	.story-preview {
+        width:calc(50% - 37px); height: auto; margin: 0 10px 10px 0; padding: 5px 5px 0 5px;
+    }
+	.story-preview-thumb {
+	width: 20%; height: 20%; float: left; margin: 0 5px 5px 0; background-size: cover; background-position: center
+}
+    .tanks-bg {
+        background: #2d2418; background-image: url(/images/mud.jpg);
+    }
+    .toptabs-duxford {
+       width: 700px; height: 33px; background-image: url(/images/duxford-tabs.gif);
+    }
+    .toptabs-britliners {
+       width:700px; height: 33px; background-image: url(/images/airliner-tabs.gif); 
+    }
+    .toptabs-brittanks {
+       width: 700px; height: 33px; background-image: url(/images/tank-tabs.gif);
+    }
+}
+@media only screen and (min-width:918px) and (max-width: 1090px) {
+    p {
+        margin-bottom: 3px
+    }
+    .banner {
+        height: 306px; position: static
+    }
+    .banner-pic {
+        height: 306px;
+    }
+    .banner-pic h1 {
+        font-size: 50px; margin: 10px 0 0 20px; line-height: 44px
+    }
+    .banner-caption {
+         border-radius: 20px 0px 0px 20px; -moz-border-radius: 20px 0px 0px 20px; -webkit-border-radius: 20px 0px 0px 20px; border: 2px solid #fff; width: 300px; margin: 100px 0 0 580px; padding: 10px 15px; font-size: 22px;
+    }
+    .blog-preview-image {
+        height: 64px; width: 100px
+    }
+    .blog-preview-image img {
+        width:100%; height: 74px
+    }
+    .blog-preview-more {
+        width:calc(100% - 20px);  margin: 0 5px 10px 5px; 
+    }
+    .blog-preview-text-holder {
+        width: calc(100% - 5px); height: 72px;
+    }
+    .blog-preview-title {
+        width:calc(100% - 20px);
+    }
+    .bottom-block-airliners {
+        width: calc(100% - 68px); height: 80px; margin: 10px 10px; padding: 10px 20px
+    }
+    .bottom-block-das {
+        width: calc(100% - 68px); height: 80px; margin: 10px 10px; padding: 10px 20px
+    }
+    .bottom-block-tanks {
+        width: calc(100% - 68px); height: 80px; margin: 10px 10px; padding: 10px 20px
+    }
+    .bottom-nav {
+        line-height: 1.2; display:block
+    }
+    .bottom-nav h1 {
+        font-size: 28px; margin: 6px 0 0 0
+    }
+    .bottom-nav-mobile {
+        display: none
+    }
+    .container {
+        width: 900px;
+    }
+    .cookie-alert {
+        margin: 0 auto -103px; width: 840px; height: 93px; padding: 5px 30px;  top: 50px
+    }
+    .event-main-image {
+        width:590px; height: 332px; float: left; background-size: cover; overflow: hidden
+    }
+    .event-main-title {
+        width: 310px; text-align: center; float: left
+    }
+    .event-main-title h1 {
+        font-size: 200%; text-transform: uppercase; margin: 20px 10px 5px
+    }
+    .exhibit-main-image {
+        height: 504px
+    }
+    .exhibit-main-image h1 {
+        font-size: 350%; font-weight: 700; margin: 30px 100px 0 20px
+    }
+    .exhibit-preview-airliners, .exhibit-preview-tanks, .exhibit-preview-das {
+        width: calc(25% - 26px); height: 250px; margin: 10px 9px 0 0; padding: 5px;
+    }
+    .hamburger-button {
+        display: none
+    }
+    .holder-25 {
+        width: 25%;
+    }
+    .holder-75 {
+        width: 70%;
+    }
+    .left-spacer-2 {
+        width: 0; height: 0;
+    }
+    .left-spacer-3 {
+        width: 0px; height: 0px;
+    }
+    .left-spacer-4 {
+        width: 20px; height: 20px;
+    }
+    .mobile-menu {
+        display: none
+    }
+    .panel-25-600 {
+        width: 248px; height: 616px; margin: 0; padding: 10px 0;
+    }
+    .panel-25-header {
+       width: 120px; height: 24px; margin: 10px 0 0 0; padding: 0 15px
+    }
+    .panel-25-header h2, .panel-75-header h2 {
+        font-size: 16px; font-weight: 700; line-height: 24px
+    }
+    .panel-50 {
+        width:calc(50% - 37px); height: auto; margin: 10px 10px 10px 0; padding: 5px 5px 0 5px;
+    }
+    .panel-50-text {
+        height: 180px
+    }
+     .panel-75-300 {
+        width: 600px; height: 280px; margin: 0 0 0 20px; padding: 10px 0;
+    }
+    .panel-75-300 h1 {
+        margin: 0 0 2px 0; font-size: 28px
+    }
+    .panel-75-300 h2 {
+        margin: 0 0 4px 0; font-size: 19px
+    }
+    .panel-75-300 img {
+        float: left; border: 0; margin: 0 10px 50px 0; width: 250px
+    }
+    .panel-75-header {
+        width: 380px; height: 24px; margin: 10px 0 0 20px; padding: 0 15px
+    }
+     .panel-100 {
+        width: calc(100% - 58px); margin:10px 20px; padding: 10px
+    }
+    .panel-shop-preview {
+        width: 140px; height: 164px; margin: 0 10px 0 0;
+    }
+    .panel-shop-thumbnail {
+        width: 140px; height: 140px; 
+    }
+    .panel-shop-thumbnail img {
+        width:140px; height: 140px;
+    }
+    img.top-airliners-button-airliners{
+        width:40.7%; height: 60px; display: block; float: left
+    }
+    img.top-airliners-button-das {
+        width:26.4%; height: 60px; display: block; float: left
+    }
+    img.top-airliners-button-tanks {
+        width:32%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-airliners {
+        width:30.7%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-das {
+        width:36.5%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-tanks {
+        width:31.5%; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-airliners {
+        width:26.5%; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-das {
+        width:36.5%; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-tanks {
+        width:340px; height: 60px; display: block; float: left
+    }
+    .shop-detail {
+        float:left; width:660px
+    }
+    .shop-item-image {
+    float:left; width: 180px; margin: 0 20px 5px 0;
+    }
+    .story-preview {
+        width:calc(50% - 37px); height: auto; margin: 0 10px 10px 0; padding: 5px 5px 0 5px;
+    }
+	.story-preview-thumb {
+		width: 20%; height: 20%; float: left; margin: 0 5px 5px 0; background-size: cover; background-position: center
+	}
+    .tanks-bg {
+        background: #2d2418; background-image: url(/images/mud.jpg);
+    }
+    .toptabs-duxford {
+       width: 900px; height: 50px; background-image: url(/images/duxford-tabs.gif);
+    }
+    .toptabs-britliners {
+       width: 900px; height: 50px; background-image: url(/images/airliner-tabs.gif); 
+    }
+    .toptabs-brittanks {
+       width: 900px; height: 50px; background-image: url(/images/tank-tabs.gif);
+    }
+}
+
+@media only screen and (min-width: 1091px) {
+    .banner {
+        height: 364px; position: static
+    }
+        .banner-pic {
+        height: 364px;
+    }
+     .banner-pic h1 {
+        font-size: 60px; margin: 10px 0 0 20px; line-height: 52px
+    }
+    .banner-caption {
+         width: 360px; margin: 130px 0 0 680px; padding: 10px 15px; font-size: 26px; border-radius: 20px 0px 0px 20px; -moz-border-radius: 20px 0px 0px 20px; -webkit-border-radius: 20px 0px 0px 20px; border: 2px solid #fff; 
+    }
+    .blog-preview-image {
+        height: 64px; width: 100px
+    }
+    .blog-preview-image img {
+        width:100%; height: 74px
+    }
+    .blog-preview-more {
+        width:calc(100% - 20px);  margin: 0 5px 10px 5px; 
+    }
+    .blog-preview-text-holder {
+        width: calc(100% - 5px); height: 72px;
+    }
+    .blog-preview-title {
+        width:calc(100% - 20px);
+    }
+    .bottom-block-airliners {
+        width: calc(100% - 78px); height: 92px; margin: 10px 20px; padding: 40px 20px; background-size: auto 100%
+    }
+    .bottom-block-das {
+        width: calc(100% - 78px); height: 92px; margin: 10px 20px; padding: 40px 20px; background-size: auto 100%
+    }
+    .bottom-block-tanks {
+        width: calc(100% - 78px); height: 92px; margin: 10px 20px; padding: 40px 20px; background-size: auto 100%
+    }
+	.bottom-nav: {
+         line-height: 1.5; display: block
+	}
+    .bottom-nav h1 {
+        font-size: 36px; margin: 15px 0 0 0
+    }
+    .bottom-nav-mobile {
+        display: none
+    }
+    .container {
+        width: 1072px;
+    }
+    .cookie-alert {
+        margin: 0 auto -103px; width: 1012px; height: 93px; padding: 5px 30px;  top: 60px
+    }
+    .event-main-image {
+        width:780px; height: 440px; float: left; background-size: cover; overflow: hidden
+    }
+    .event-main-image img{
+        width:100%; height: 100%; border: none
+    }
+    .event-main-title {
+        width: 292px; text-align: center; float: left
+    }
+    .exhibit-main-image {
+        height: 600px
+    }
+    .exhibit-main-image h1 {
+        font-size: 400%; font-weight: 700; margin: 30px 100px 0 20px
+    }
+    .exhibit-preview-airliners, .exhibit-preview-tanks, .exhibit-preview-das {
+        width: calc(25% - 26px); height: 290px; margin: 10px 9px 0 0; padding: 5px;
+    }
+    .hamburger-button {
+        display: none
+    }
+    .holder-25 {
+        width: 25%;
+    }
+    .holder-75 {
+        width: 75%;
+    }
+    .left-spacer-2 {
+        width: 0; height: 0;
+    }
+    .left-spacer-3 {
+        width: 0px; height: 0px;
+    }
+    .left-spacer-4 {
+        width: 20px; height: 20px;
+    }
+    .mobile-menu {
+        display: none
+    }
+    .panel-25-600 {
+        width: 248px; height: 616px; margin: 0; padding: 10px 0;
+    }
+    .panel-25-header {
+        width: 150px; height: 24px; margin: 10px 0 0 0; padding: 0 15px
+    }
+    .panel-25-header h2, .panel-75-header h2 {
+        font-size: 16px; font-weight: 700; line-height: 24px
+    }
+    .panel-50 {
+        width:calc(50% - 37px); height: auto; margin: 10px 10px 10px 0; padding: 5px 5px 0 5px;
+    }
+    .panel-75-300 {
+        width: 774px; height: 280px; margin: 0 0 0 20px; padding: 10px 0;
+    }
+    .panel-75-300 h1 {
+        text-transform: uppercase; margin: 0 0 7px 0; font-size: 36px
+    }
+    .panel-75-300 h2 {
+        text-transform: uppercase; margin: 0 0 7px 0; font-size: 20px
+    }
+    .panel-75-300 img {
+        float: left; border: 0; margin: 0 10px 0 0
+    }
+    .panel-75-header {
+        width: 450px; height: 24px; margin: 10px 0 0 20px; padding: 0 15px
+    }
+    .panel-100 {
+        width: calc(100% - 58px); margin:10px 20px; padding: 10px
+    }
+    .panel-shop-preview {
+        width: 200px; height: 220px; margin: 0 10px 0 0;
+    }
+    .panel-shop-thumbnail {
+        width: 200px; height: 200px; 
+    }
+    .panel-shop-thumbnail img {
+        width:200px; height: 200px;
+    }
+    img.top-airliners-button-airliners{
+        width:40.7%; height: 60px; display: block; float: left
+    }
+    img.top-airliners-button-das {
+        width:26.4%; height: 60px; display: block; float: left
+    }
+    img.top-airliners-button-tanks {
+        width:32%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-airliners {
+        width:30.7%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-das {
+        width:36.5%; height: 60px; display: block; float: left
+    }
+    img.top-das-button-tanks {
+        width:31.5%; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-airliners {
+        width:336px; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-das {
+        width:286px; height: 60px; display: block; float: left
+    }
+    img.top-tanks-button-tanks {
+        width:400px; height: 60px; display: block; float: left
+    }
+    .shop-detail {
+        float:left; width:862px
+    }
+    .shop-item-image {
+    float:left; width: 150px; margin: 0 20px 5px 0;
+    }
+    .shop-item-image img {
+        max-width:100%; height: auto; border: none
+    }
+	.story-preview {
+        width:calc(50% - 37px); height: auto; margin: 0 10px 10px 0; padding: 5px 5px 0 5px;
+    }
+    .tanks-bg {
+        background: #2d2418; background-image: url(/images/mud.jpg);
+    }
+	.toptabs-duxford {
+        width: 1072px; height: 60px; background-image: url(/images/duxford-tabs.gif);
+    }
+    .toptabs-britliners {
+        width: 1072px; height: 60px; background-image: url(/images/airliner-tabs.gif); 
+    }
+    .toptabs-brittanks {
+        width: 1072px; height: 60px;  background-image: url(/images/tank-tabs.gif);
+    } 
+}
+
+body {
+font-family: 'Source Sans Pro', sans-serif; font-size: 14px; line-height: 1.5; text-align: center; background: #448cca; background: -moz-linear-gradient(top, #448cca 0%, #4c99d3 8%, #6dcff6 26%, #6dcff6 100%); background: -webkit-linear-gradient(top, #448cca 0%,#4c99d3 8%,#6dcff6 26%,#6dcff6 100%); background: linear-gradient(to bottom, #448cca 0%,#4c99d3 8%,#6dcff6 26%,#6dcff6 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448cca', endColorstr='#6dcff6',GradientType=0 ); background-repeat: no-repeat; margin: 0; padding: 0
+}
+p {
+    margin-bottom: 7px
+}
+.banner {
+   width: 100%; background: #000;
+}
+.banner-pic {
+    width: 100%; background-size: cover; background-position: center; overflow: hidden; position: relative
+}
+.banner-pic h1 {
+    color: white; text-transform: uppercase; font-weight: 700;
+}
+.banner-caption {
+     position: absolute; color: white; text-transform: uppercase;
+}
+.bgcolor-1-airliners {
+    background-color: #e42026 !important; color: white !important
+}
+.bgcolor-1-airliners a:link {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-1-airliners a:visited {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-1-airliners a:hover {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-1-airliners a:active {
+    color: #353785; font-weight: 700
+}
+.bgcolor-1-airliners .highlight {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-1-das {
+    background-color: #00617b !important; color: #fff !important;
+}
+.bgcolor-1-das a:link {
+    color: #fff; font-weight: 700
+}
+.bgcolor-1-das a:visited {
+    color: #fff; font-weight: 700
+}
+.bgcolor-1-das a:hover {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-1-das a:active {
+    color: #ff0000; font-weight: 700
+}
+.bgcolor-1-das .highlight {
+    color: #ffdf6f; font-weight: 700
+}
+.bgcolor-1-tanks {
+    background-color: #9b9760; color: #fff;
+}
+.bgcolor-1-tanks a:link {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-1-tanks a:visited {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-1-tanks a:hover {
+    color: #3b6d52; font-weight: 700
+}
+.bgcolor-1-tanks a:active {
+    color: #ff0000; font-weight: 700
+}
+.bgcolor-1-tanks .highlight {
+    color: #3b6d52; font-weight: 700
+}
+.bgcolor-2-airliners {
+    background-color: #353785; color: white
+}
+.bgcolor-2-airliners a:link {
+    color: #ffdf6f; font-weight: 700
+}
+.bgcolor-2-airliners a:visited {
+    color: #ffdf6f; font-weight: 700
+}
+.bgcolor-2-airliners a:hover {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-2-airliners a:active {
+    color: #e42026; font-weight: 700
+}
+.bgcolor-2-airliners .highlight {
+    color: #ffdf6f; font-weight: 700
+}
+.bgcolor-2-das {
+    background-color:black ; color: #fff;
+}
+.bgcolor-2-tanks {
+    background-color: #3b6d52; color: #fff;
+}
+.bgcolor-2-tanks a:link, .bgcolor-2-das a:link {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-2-tanks a:visited, .bgcolor-2-das a:visited {
+    color: #ffffff; font-weight: 700
+}
+.bgcolor-2-tanks a:hover {
+    color: #3b6d52; font-weight: 700
+}
+.bgcolor-2-tanks a:active {
+    color: #ff0000; font-weight: 700
+}
+.bgcolor-2-tanks .highlight {
+    color: #ffdf6f; font-weight: 700
+}
+.bgcolor-grey {
+    background-color: darkgrey; color: #fff
+}
+.bgcolor-light-grey {
+    background-color: #A0A0A0 ;color: #606060
+}
+.bgcolor-white {
+    background-color: white; color: #000000
+}
+.bg-fade-airliners {
+    background-color: rgba(53,56,133,0.5)
+}
+.bg-fade-airlinersX {
+    background-image: url(/images/bg-fade-airliners.png); background-size: cover
+}
+.bg-fade-das {
+    background-color: rgba(0,97,123,0.5)
+}
+.bg-fade-tanks {
+    background-color: rgba(59,109,82,0.5)
+}
+.blog-preview-image {
+    float: left; background-size:cover; margin: 5px; overflow: hidden
+}
+.blog-preview-image img {
+    width:100%; border: none
+}
+.blog-preview-more {
+    margin: 0 5px 10px 5px; height: 19px; line-height: 19px; text-transform: uppercase; font-weight: 700; padding: 0 5px; text-align: right
+}
+.blog-preview-text-holder {
+    margin: 0; line-height: 1.2; overflow: hidden; font-size: 15px
+}
+.blog-preview-title {
+    height: 24px; line-height: 24px; text-transform: uppercase; font-weight: 700; margin: 0 5px; padding: 0 5px
+}
+.body-tanks {
+    background: #2d2418 no-repeat; background-image: url(/images/mud.jpg); background-size: cover; height: 300vh;
+}
+.border-color-1-airliners {
+    border-color: #e42026 !important
+}
+.border-color-1-das {
+    border-color: #00617b !important
+}
+.border-color-1-tanks {
+    border-color: #9b9760 !important
+}
+.border-color-2-tanks {
+    border-color: #3b6d52 !important
+}
+.bottom-block-airliners {
+    background-image: url(/images/airliners-bottom-block.gif); background-repeat: no-repeat; background-color: #e11e26; color: white;
+}
+.bottom-block-das {
+    background-image: url(/images/duxford-bottom-block.gif); background-repeat: no-repeat; background-color: #00617b; color: white;
+}
+.bottom-block-tanks {
+    background-image: url(/images/tanks-bottom-block.gif); background-repeat: no-repeat; background-color: #3b6d52; color: white;
+}
+.bottom-nav {
+    text-align: right;
+}
+.bottom-nav h1 {
+    font-weight: 700
+}
+.bullet-list {
+    text-align: left; list-style: circle; margin: 0 0 5px 30px
+}
+.bullet-list ul {
+    list-style: circle
+}
+.buttonLook, input[type="submit"] {
+    padding: 2px 10px; text-decoration: none; border: solid 1pt #fff; text-align: center; background-color: #00617b; color: white; height: 25px; cursor: pointer; font-size: 13px
+}
+.clear {
+    clear: both; height: 0; overflow: hidden; margin: 0
+}
+.color-1-airliners {
+    color: #e42026 !important
+}
+.color-1-das {
+    color: #00617b !important
+}
+.color-1-tanks {
+    color: #9b9760 !important
+}
+.color-2-airliners {
+    color: #353785 !important
+}
+.color-2-das {
+    color: darkkhaki !important
+}
+.color-2-tanks {
+    color: #3b6d52 !important
+}
+.container {
+    margin: 0 auto; background-color: white; text-align: left; padding: 0
+}
+.cookie-alert {
+    position: relative; background-image: url(/images/bg-cookie-fade.png); color: white; text-align: center; z-index: 100;
+}
+.cookie-alert h1 {
+    font-size: 22px
+}
+.customer-input {
+    float: left; width:60%; margin: 5px
+}
+.customer-label {
+    float: left; width:30%; margin: 5px
+}
+.emphasize {
+    font-weight: 700; font-size: 110%
+}
+.exhibit-main-image {
+    width: 100%; background-size: cover; margin: 0; padding: 0
+}
+.exhibit-preview-airliners {
+    float: left; background-color: #353785; text-align: center
+}
+.exhibit-preview-das {
+    float: left; background-color: #00617b; text-align: center; color:white
+}
+.exhibit-preview-das img {
+    width: calc(100% - 2px); max-height: 240px; border: none
+}
+.exhibit-preview-das a:link, .exhibit-preview-das a:visited, .exhibit-preview-das a:hover,.exhibit-preview-das a:active {
+    color: white; font-size: 120%; text-decoration: none; font-weight: 700
+}
+.exhibit-preview-das h2 {
+    text-transform: uppercase; font-size: 150%; font-weight: 700; margin: 5px 0 10px 0
+}
+.exhibit-preview-airliners img {
+    width: calc(100% - 2px); max-height: 240px; border: none
+}
+.exhibit-preview-airliners a:link, .exhibit-preview-airliners a:visited, .exhibit-preview-airliners a:hover, .exhibit-preview-airliners a:active {
+    color: white; font-size: 120%; text-decoration: none; font-weight: 700
+}
+.exhibit-preview-tanks {
+    float: left; background-color: #3b6d52; text-align: center
+}
+.exhibit-preview-tanks img {
+    width: calc(100% - 2px); max-height: 240px; border: none
+}
+.exhibit-preview-tanks a:link, .exhibit-preview-tanks a:visited, .exhibit-preview-tanks a:hover,.exhibit-preview-tanks a:active {
+    color: white; font-size: 120%; text-decoration: none; font-weight: 700
+}
+.holder-25 {
+    float: left; width: 25%; margin: 0; padding: 0
+}
+.holder-75 {
+    float: left; margin: 0; padding: 0;
+}
+input.button-red {
+    background-color: #ff0000
+}
+input.plain-cursor {
+    cursor: default
+}
+.input-50 {
+    width:50px; max-width: 50px
+}
+.input-100 {
+    width:100px; max-width: 100px
+}
+.input-200 {
+    width: 200px; max-width: 200px
+}
+.input-300 {
+    width: 300px; max-width: 300px
+}
+.input-error {
+    border: solid 1px #e42026; background-color: #ffb193
+}
+.input-mandatory {
+    border: solid 1px #e42026
+}
+.left-spacer-2 {
+   float: left; margin: 0; padding: 0
+}
+.left-spacer-3 {
+    float: left; margin: 0; padding: 0
+}
+.left-spacer-4 {
+    float: left; margin: 0; padding: 0
+}
+.menu {
+    height:  44px; margin: 0; line-height: 44px; font-size: 14px; width: calc(100% - 40px); padding: 0 20px
+}
+.menu-left {
+    float:left; width: 30%
+}
+.menu-right {
+    float: right; width: 69%; text-align: right
+}
+.panel-25-600 {
+   border: solid 1px; overflow: hidden
+}
+.panel-75-300 {
+   border-bottom: solid 1px; border-top: solid 1px; overflow: hidden
+}
+.panel-75-300 h1 {
+    text-transform: uppercase;
+}
+.panel-75-300 h2 {
+    text-transform: uppercase;
+}
+.panel-75-300 img {
+    float: left;
+}
+.panel-25-header {
+    border-radius: 15px 15px 0px 0px; -moz-border-radius: 15px 15px 0px 0px; -webkit-border-radius: 15px 15px 0px 0px;
+}
+.panel-75-header {
+    border-radius: 15px 15px 0px 0px; -moz-border-radius: 15px 15px 0px 0px; -webkit-border-radius: 15px 15px 0px 0px;
+}
+.panel-100 h1 {
+    font-size: 28px; text-transform: uppercase; margin: 0
+}
+.panel-100 h2 {
+    font-size: 18px; text-transform: uppercase; margin: 0 0 5px 0
+}
+.panel100 p {
+    line-height: 1.1; margin: 0 0 5px 0
+}
+.panel-shop-thumbnail {
+    background-size: contain; background-repeat: no-repeat; background-position: center
+}
+.panel-shop-thumbnail img {
+    border: none; margin-bottom: 10px
+}
+.panel-shop-preview {
+    float: left; text-align: center;
+}
+.panel-shop-preview h2 {
+    font-size: 150%
+}
+.shop-detail {
+    margin-top: 25px
+}
+.tab-airliner-collection {
+    position: relative; float: left; margin-left: 294px; padding: 0; 
+}
+.tab-duxford {
+   position: relative; margin-left: -685px; padding: 0
+}
+.text-right {
+    text-align: right
+}
+.toptabs-duxford {
+   margin: 0 auto; padding: 0; background-size: contain; text-align: left; overflow:hidden; background-repeat: no-repeat
+}
+.toptabs-britliners {
+   margin: 0 auto; padding: 0; background-size: contain; text-align: left; overflow:hidden; background-repeat: no-repeat
+}
+.toptabs-brittanks {
+  margin: 0 auto; padding: 0; background-size: contain; text-align: left; overflow:hidden; background-repeat: no-repeat
+}    
+.toptabs-duxford img, .toptabs-britliners img, toptabs-brittanks img {
+    border: none
+}
+.toptabs img {
+    border: 0;  
+}
+.variable-height {
+    height: auto
+}
